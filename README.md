@@ -126,8 +126,7 @@ https://localhost
 ```
 
 ## SETTING UP RN1723 EMBEDDED CLIENT
-#### Provisioning the RN1723 Development Board Using a Serial
-Port Terminal Application
+#### Provisioning the RN1723 Development Board Using a Serial Port Terminal Application
 ```
 1. Connect a mini-USB to Type A USB cable between the RN1723 Development
 Board and the laptop/PC.
