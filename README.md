@@ -7,26 +7,13 @@ RN1723 module for low-power IoT client applications.
 ### Current version is 0.1.0
 
 #### Notes About this version
-This version of the software is being released as a __beta__ version.  Please check back often as there is going to be many updates to this starter kit.
-
-### Required Tools and Applications
-You will need the following Microchip development tools to compile and program the RN1723 Development Kit Firmware
-
-- Download and install Microchip MPLAB<sup>&reg;</sup>X IDE for your OS from here:
-[Microchip MPLAB<sup>&reg;</sup>X](http://www.microchip.com/mplabx).
-
-- Download and install the latest XC32 compiler for your OS from here:  [Microchip XC32](http://www.microchip.com/xc32)
-
-	>NOTE: MPLAB® XC Compiler licenses are also available as Free editions and have the option of a 60-day PRO evaluation trial.  This will be required as the source code requires optimizations to be turned on.
-
-- [PICKit&trade; 3 In-Circuit Debugger/Programmer](http://www.microchip.com/pickit3).  This programmer uses in-circuit debugging logic incorporated into each chip with Flash memory to provide a low-cost hardware debugger and programmer. You can use this programmer to load firmware into the WCM board.
-
+This version of the software is being released as a __beta__ version.  Please check back often for updates.
 
 ## SETTING UP THE PYTHON SERVER
 To set up the PythonTM server, users will need to install python and the necessary
 packages that support SSL before launching the server script. After the server is set up
-and is running properly, the RN1723 Development Board will then be able to connect
-to the server as a client and post the system updates to the server.
+and running properly, the RN1723 Development Board will then be able to connect
+to the server as a client and post the status updates to the server.
 The following sections describe the necessary steps to set up a computer as a server
 for Windows ® , Mac OS ® , and Linux.
 
@@ -56,50 +43,67 @@ Only openssl version 1.0.0 or later supports the RN1723 Secure Server Script usi
 TLS1.2. To install openssl do the following:
 1. Use Homebrew (http://brew.sh) to install the latest version of openssl using the
 following commands in a terminal window, while forcing the links so that Python
-will use the right version of openssl .
+will use the right version of openssl.
+```
 brew update
 brew install openssl
 brew link --force openssl
+```
 2. Reinstall Python to use the latest openssl:?
+```
 brew install python --with-brewed-openssl
+```
 3. To verify that python was updated, run the following command and verify that the
 version number of the operating system is greater than 1.0.2d?
+```
 python -c 'import ssl; print ssl.OPENSSL_VERSION
+```
 4. Install pip by opening a terminal application (Applications > Utilities > Terminal)
-and entering the following command:.
+and entering the following command:
+```
 $ sudo easy_install pip
+```
 5. Install pybottle by entering the following command:
+```
 $ sudo pip install bottle
+```
 6. Install Cherrypy version 3.2.3 by entering the following command:
+```
 $ sudo pip install cherrypy==3.2.3
+```
 7. Launch the server script by entering the following command:
+```
 $ sudo python ServerMain.py
+```
 
 #### Setting Up a Python server for Linux
 1. Install Python 2.7.x by opening a terminal application and entering the following
 command:
+```
 $ sudo apt-get install python
+```
 2. Install pip by entering the following command:
+```
 $ sudo apt-get install python-pip
+```
 3. Install pybottle by entering the following command:
+```
 $ sudo pip install bottle
+```
 4. Install Cherrypy version 3.2.3 by entering the following command:
+```
 $ sudo pip install cherrypy==3.2.3
+```
 5. Launch the server script by entering the following command:
+```
 $ sudo python ServerMain.py
-
-## Reading the Server IP Address
-After the server is set up on a host PC/laptop, please read the IP address of the
-laptop/PC using the command ipconfig (Windows) or ifconfig (Mac/Linux).
-Figure 3-2 shows a sample screen.
-While setting up the RN1723 Client, the host address is required to be set according to
-the output of ifconfig / ipconfig (e.g., 192.168.1.225). It is important to ensure that
-both the client and server are in the same subnet.
+```
 
 ## Opening the Server Web Page
-Open a Web browser and enter the following URL, where <local host IP address>
-is the actual IP address of your local host:
-https://< local host IP address> /RN1723/App1/v1
+Open a Web browser and enter the following URL on the same machine running the python Server script:
+```
+https://localhost
+```
 
 ## SETTING UP RN1723 EMBEDDED CLIENT
 #### Provisioning the RN1723 Development Board Using a Serial
