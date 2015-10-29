@@ -10,7 +10,7 @@ RN1723 module for low-power IoT client applications.
 This version of the software is being released as a __beta__ version.  Please check back often for updates.
 
 ## SETTING UP THE PYTHON SERVER
-To set up the PythonTM server, users will need to install python and the necessary
+To set up the Python server, users will need to install python and the necessary
 packages that support SSL before launching the server script. After the server is set up
 and running properly, the RN1723 Development Board will then be able to connect
 to the server as a client and post the status updates to the server.
