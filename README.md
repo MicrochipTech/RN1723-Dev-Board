@@ -20,7 +20,7 @@ for Windows ® , Mac OS ® , and Linux.
 #### Setting Up the Python Server for Windows 7
 Do the following:
 
-1. Install python , version 2.7.x.
+Install python , version 2.7.x.
 ```
 a) Download and run the installer from:
 https://www.python.org/downloads/release/python-2710/
@@ -28,17 +28,17 @@ b) Add the Python directory to your system PATH.
 ```
 > Note: The pip package will be installed with Python 2.7 or later.
 
-2. Install pybottle by opening a command shell (click Start (
+Install pybottle by opening a command shell (click Start (
 in the search box) and entering the following command:
 ) and enter cmd
 ```
 python –m pip install bottle
 ```
-3. Install CherryPy , version 3.2.3 by entering the following command:
+Install CherryPy , version 3.2.3 by entering the following command:
 ```
 python –m pip install cherrypy==3.2.3
 ```
-4. Launch the server script from the installed directory by entering the following
+Launch the server script from the installed directory by entering the following
 command:
 ```
 python ServerMain.py
@@ -50,7 +50,8 @@ not been installed. If that is not the case, all previous versions must first be
 before proceeding.
 Only openssl version 1.0.0 or later supports the RN1723 Secure Server Script using
 TLS1.2. To install openssl do the following:
-1. Use Homebrew (http://brew.sh) to install the latest version of openssl using the
+
+Use Homebrew (http://brew.sh) to install the latest version of openssl using the
 following commands in a terminal window, while forcing the links so that Python
 will use the right version of openssl.
 ```
@@ -58,52 +59,62 @@ brew update
 brew install openssl
 brew link --force openssl
 ```
-2. Reinstall Python to use the latest openssl:?
+
+Reinstall Python to use the latest openssl:?
 ```
 brew install python --with-brewed-openssl
 ```
-3. To verify that python was updated, run the following command and verify that the
+
+To verify that python was updated, run the following command and verify that the
 version number of the operating system is greater than 1.0.2d?
 ```
 python -c import ssl; print ssl.OPENSSL_VERSION
 ```
-4. Install pip by opening a terminal application (Applications > Utilities > Terminal)
+
+Install pip by opening a terminal application (Applications > Utilities > Terminal)
 and entering the following command:
 ```
 sudo easy_install pip
 ```
-5. Install pybottle by entering the following command:
+
+Install pybottle by entering the following command:
 ```
 sudo pip install bottle
 ```
-6. Install Cherrypy version 3.2.3 by entering the following command:
+
+Install Cherrypy version 3.2.3 by entering the following command:
 ```
 sudo pip install cherrypy==3.2.3
 ```
-7. Launch the server script by entering the following command:
+
+Launch the server script by entering the following command:
 ```
 sudo python ServerMain.py
 ```
 
 #### Setting Up a Python server for Linux
-1. Install Python 2.7.x by opening a terminal application and entering the following
+Install Python 2.7.x by opening a terminal application and entering the following
 command:
 ```
 sudo apt-get install python
 ```
-2. Install pip by entering the following command:
+
+Install pip by entering the following command:
 ```
 sudo apt-get install python-pip
 ```
-3. Install pybottle by entering the following command:
+
+Install pybottle by entering the following command:
 ```
 sudo pip install bottle
 ```
-4. Install Cherrypy version 3.2.3 by entering the following command:
+
+Install Cherrypy version 3.2.3 by entering the following command:
 ```
 sudo pip install cherrypy==3.2.3
 ```
-5. Launch the server script by entering the following command:
+
+Launch the server script by entering the following command:
 ```
 sudo python ServerMain.py
 ```
@@ -117,6 +128,7 @@ https://localhost
 ## SETTING UP RN1723 EMBEDDED CLIENT
 #### Provisioning the RN1723 Development Board Using a Serial
 Port Terminal Application
+```
 1. Connect a mini-USB to Type A USB cable between the RN1723 Development
 Board and the laptop/PC.
 2. Use a Serial Port Terminal Application software and configure it to the following
@@ -133,6 +145,7 @@ server IP Address is 192.168.1.225, enter 192.168.1.225 when prompted for an
 IP Address).
 6. Select option 3, enter the SSID, and then the Passphrase to the new AP. Check
 for the response “OK” from the RN1723 module, as shown in Figure 3-6.
+```
 
 After provisioning the RN1723 Development Board onto a network, the device will com-
 municate periodically to the host server (Cloud) with status information. Once the data
