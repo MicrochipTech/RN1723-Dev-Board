@@ -56,47 +56,47 @@ brew install python --with-brewed-openssl
 3. To verify that python was updated, run the following command and verify that the
 version number of the operating system is greater than 1.0.2d?
 ```
-python -c 'import ssl; print ssl.OPENSSL_VERSION
+python -c import ssl; print ssl.OPENSSL_VERSION
 ```
 4. Install pip by opening a terminal application (Applications > Utilities > Terminal)
 and entering the following command:
 ```
-$ sudo easy_install pip
+sudo easy_install pip
 ```
 5. Install pybottle by entering the following command:
 ```
-$ sudo pip install bottle
+sudo pip install bottle
 ```
 6. Install Cherrypy version 3.2.3 by entering the following command:
 ```
-$ sudo pip install cherrypy==3.2.3
+sudo pip install cherrypy==3.2.3
 ```
 7. Launch the server script by entering the following command:
 ```
-$ sudo python ServerMain.py
+sudo python ServerMain.py
 ```
 
 #### Setting Up a Python server for Linux
 1. Install Python 2.7.x by opening a terminal application and entering the following
 command:
 ```
-$ sudo apt-get install python
+sudo apt-get install python
 ```
 2. Install pip by entering the following command:
 ```
-$ sudo apt-get install python-pip
+sudo apt-get install python-pip
 ```
 3. Install pybottle by entering the following command:
 ```
-$ sudo pip install bottle
+sudo pip install bottle
 ```
 4. Install Cherrypy version 3.2.3 by entering the following command:
 ```
-$ sudo pip install cherrypy==3.2.3
+sudo pip install cherrypy==3.2.3
 ```
 5. Launch the server script by entering the following command:
 ```
-$ sudo python ServerMain.py
+sudo python ServerMain.py
 ```
 
 ## Opening the Server Web Page
