@@ -18,22 +18,31 @@ The following sections describe the necessary steps to set up a computer as a se
 for Windows ® , Mac OS ® , and Linux.
 
 #### Setting Up the Python Server for Windows 7
-Do the following
+Do the following:
+
 1. Install python , version 2.7.x.
+```
 a) Download and run the installer from:
 https://www.python.org/downloads/release/python-2710/
 b) Add the Python directory to your system PATH.
-Note:
-The pip package will be installed with Python 2.7 or later.
+```
+> Note: The pip package will be installed with Python 2.7 or later.
+
 2. Install pybottle by opening a command shell (click Start (
 in the search box) and entering the following command:
 ) and enter cmd
+```
 python –m pip install bottle
+```
 3. Install CherryPy , version 3.2.3 by entering the following command:
+```
 python –m pip install cherrypy==3.2.3
+```
 4. Launch the server script from the installed directory by entering the following
 command:
+```
 python ServerMain.py
+```
 
 #### Setting Up a Python Server for Mac OS
 The instructions provided in this section assume that a previous version of openssl has
