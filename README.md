@@ -1,4 +1,4 @@
-# RN1723 Development Kit Out of Box Setup Guide
+# Out of Box Setup Guide
 
 ## Introduction
 The RN1723 Development Board provides a platform to evaluate Microchip’s
