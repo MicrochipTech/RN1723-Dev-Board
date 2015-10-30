@@ -4,10 +4,10 @@
 The RN1723 Development Board provides a platform to evaluate Microchip’s
 RN1723 module for low-power IoT client applications.
 
-### Current version is 0.1.0
+### Current version is 4.0
 
 #### Notes About this version
-This version of the software is being released as a __beta__ version.  Please check back often for updates.
+This is the initial public release version.  Please check back often for updates.
 
 ## SETTING UP THE PYTHON SERVER
 To set up the Python server, users will need to install python and the necessary
@@ -120,7 +120,7 @@ sudo python ServerMain.py
 ```
 
 ## Opening the Server Web Page
-Open a Web browser and enter the following URL on the same machine running the python Server script:
+Open a Web browser and enter the following URL on the same machine running the python server script:
 ```
 https://localhost
 ```
