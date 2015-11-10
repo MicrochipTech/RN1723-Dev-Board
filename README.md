@@ -20,7 +20,7 @@ for Windows ® , Mac OS ® , and Linux.
 #### Setting Up the Python Server for Windows 7
 Do the following:
 
-Install python , version 2.7.x.
+Install python , version 2.7.10 or greater.
 ```
 a) Download and run the installer from:
 https://www.python.org/downloads/release/python-2710/
@@ -38,10 +38,12 @@ Install CherryPy , version 3.2.3 by entering the following command:
 ```
 python –m pip install cherrypy==3.2.3
 ```
+> Note:  Version other than 3.2.3 may not support SSL.
+
 Launch the server script from the installed directory by entering the following
 command:
 ```
-python ServerMain.py
+python ServerMainSSL.py
 ```
 
 #### Setting Up a Python Server for Mac OS
@@ -89,7 +91,7 @@ sudo pip install cherrypy==3.2.3
 
 Launch the server script by entering the following command:
 ```
-sudo python ServerMain.py
+sudo python ServerMainSSL.py
 ```
 
 #### Setting Up a Python server for Linux
@@ -116,7 +118,7 @@ sudo pip install cherrypy==3.2.3
 
 Launch the server script by entering the following command:
 ```
-sudo python ServerMain.py
+sudo python ServerMainSSL.py
 ```
 
 ## Opening the Server Web Page
@@ -124,6 +126,7 @@ Open a Web browser and enter the following URL on the same machine running the p
 ```
 https://localhost
 ```
+> Note:  If accessing the server from a machine other than local host you will need the IP address of the server machine.
 
 ## SETTING UP RN1723 EMBEDDED CLIENT
 #### Provisioning the RN1723 Development Board Using a Serial Port Terminal Application
@@ -152,8 +155,12 @@ exchange is completed the RN module will return to Sleep mode.
 For configuring the application system settings (wake-up interval, alarm thresholds),
 the user can modify the settings on the server web page.
 
-```
+## FAQ
+Q:  I can't access the server page.  The browser give warning that connection is not private and can't proceed or add exception for self signed certificate.
 
+A:  Try using Firefox.
+
+```
 ## License
 © 2015 Microchip Technology Inc. and its subsidiaries.  You may use this
 software and any derivatives exclusively with Microchip products.
