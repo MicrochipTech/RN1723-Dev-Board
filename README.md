@@ -70,7 +70,7 @@ brew install python --with-brewed-openssl
 To verify that python was updated, run the following command and verify that the
 version number of the operating system is greater than 1.0.2d
 ```
-python -c import ssl; print ssl.OPENSSL_VERSION
+python -c 'import ssl; print ssl.OPENSSL_VERSION'
 ```
 
 Install pip by opening a terminal application (Applications > Utilities > Terminal)
