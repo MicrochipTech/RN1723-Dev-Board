@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Sushma_Workspace/Projects/2015/RN_IOT/OOB_Release/version_1.0/RN1723_Dev_Board_Firmware/src/app.c</file>
+            <file>file:/Sushma_Workspace/Projects/2015/RN_IOT/OOB_Release/version_1.0/RN1723_Dev_Board_Firmware/src/console.c</file>
+            <file>file:/Sushma_Workspace/Projects/2015/RN_IOT/OOB_Release/version_1.0/RN1723_Dev_Board_Firmware/src/fifo.c</file>
+            <file>file:/Sushma_Workspace/Projects/2015/RN_IOT/OOB_Release/version_1.0/RN1723_Dev_Board_Firmware/src/https_tasks.c</file>
+            <file>file:/Sushma_Workspace/Projects/2015/RN_IOT/OOB_Release/version_1.0/RN1723_Dev_Board_Firmware/src/json_format.c</file>
+            <file>file:/Sushma_Workspace/Projects/2015/RN_IOT/OOB_Release/version_1.0/RN1723_Dev_Board_Firmware/src/json_parser.c</file>
+            <file>file:/Sushma_Workspace/Projects/2015/RN_IOT/OOB_Release/version_1.0/RN1723_Dev_Board_Firmware/src/main.c</file>
+            <file>file:/Sushma_Workspace/Projects/2015/RN_IOT/OOB_Release/version_1.0/RN1723_Dev_Board_Firmware/src/self_test.c</file>
+            <file>file:/Sushma_Workspace/Projects/2015/RN_IOT/OOB_Release/version_1.0/RN1723_Dev_Board_Firmware/src/spi_eeprom.c</file>
+            <file>file:/Sushma_Workspace/Projects/2015/RN_IOT/OOB_Release/version_1.0/RN1723_Dev_Board_Firmware/src/spi_flash.c</file>
+            <file>file:/Sushma_Workspace/Projects/2015/RN_IOT/OOB_Release/version_1.0/RN1723_Dev_Board_Firmware/src/sys_tasks.c</file>
+            <file>file:/Sushma_Workspace/Projects/2015/RN_IOT/OOB_Release/version_1.0/RN1723_Dev_Board_Firmware/include/ca-cert.h</file>
+        </group>
+    </open-files>
+</project-private>

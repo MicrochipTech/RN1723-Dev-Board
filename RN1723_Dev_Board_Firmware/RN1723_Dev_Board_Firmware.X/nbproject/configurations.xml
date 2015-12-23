@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="62">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f2" displayName="cyassl" projectFiles="true">
+        <logicalFolder name="f1" displayName="ctaocrypt" projectFiles="true">
+          <itemPath>../cyassl/cyassl/ctaocrypt/aes.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/arc4.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/asn.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/asn_public.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/blake2-impl.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/blake2-int.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/blake2.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/camellia.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/chacha.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/coding.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/compress.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/des3.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/dh.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/dsa.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/ecc.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/error-crypt.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/fips_test.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/hc128.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/hmac.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/include.am</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/integer.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/logging.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/md2.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/md4.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/md5.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/memory.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/misc.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/mpi_class.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/mpi_superclass.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/pkcs7.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/poly1305.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/pwdbased.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/rabbit.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/random.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/ripemd.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/rsa.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/settings.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/sha.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/sha256.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/sha512.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/tfm.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/types.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/visibility.h</itemPath>
+          <itemPath>../cyassl/cyassl/ctaocrypt/wc_port.h</itemPath>
+        </logicalFolder>
+        <itemPath>../cyassl/cyassl/callbacks.h</itemPath>
+        <itemPath>../cyassl/cyassl/certs_test.h</itemPath>
+        <itemPath>../cyassl/cyassl/crl.h</itemPath>
+        <itemPath>../cyassl/cyassl/error-ssl.h</itemPath>
+        <itemPath>../cyassl/cyassl/include.am</itemPath>
+        <itemPath>../cyassl/cyassl/internal.h</itemPath>
+        <itemPath>../cyassl/cyassl/ocsp.h</itemPath>
+        <itemPath>../cyassl/cyassl/options.h</itemPath>
+        <itemPath>../cyassl/cyassl/sniffer.h</itemPath>
+        <itemPath>../cyassl/cyassl/sniffer_error.h</itemPath>
+        <itemPath>../cyassl/cyassl/ssl.h</itemPath>
+        <itemPath>../cyassl/cyassl/test.h</itemPath>
+        <itemPath>../cyassl/cyassl/version.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="include" projectFiles="true">
+        <logicalFolder name="f1" displayName="WiFlyDriver" projectFiles="true">
+          <itemPath>../include/wifly_UART_drv.h</itemPath>
+        </logicalFolder>
+        <itemPath>../include/Compiler.h</itemPath>
+        <itemPath>../include/console.h</itemPath>
+        <itemPath>../include/fifo.h</itemPath>
+        <itemPath>../include/GenericTypeDefs.h</itemPath>
+        <itemPath>../include/HardwareProfile.h</itemPath>
+        <itemPath>../include/sys_tasks.h</itemPath>
+        <itemPath>../include/app.h</itemPath>
+        <itemPath>../include/https_tasks.h</itemPath>
+        <itemPath>../include/json_format.h</itemPath>
+        <itemPath>../include/json_parser.h</itemPath>
+        <itemPath>../include/self_test.h</itemPath>
+        <itemPath>../include/spi_flash.h</itemPath>
+        <itemPath>../include/spi_eeprom.h</itemPath>
+        <itemPath>../include/tick.h</itemPath>
+      </logicalFolder>
+      <itemPath>../include/ca-cert.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f4" displayName="cyassl" projectFiles="true">
+        <logicalFolder name="f1" displayName="ctaocrypt" projectFiles="true">
+          <itemPath>../cyassl/ctaocrypt/src/aes.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/arc4.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/asm.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/asn.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/blake2b.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/camellia.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/chacha.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/coding.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/compress.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/des3.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/dh.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/dsa.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/ecc.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/ecc_fp.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/error.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/fips.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/fips_test.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/hc128.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/hmac.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/include.am</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/integer.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/logging.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/md2.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/md4.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/md5.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/memory.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/misc.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/pkcs7.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/poly1305.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/pwdbased.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/rabbit.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/random.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/ripemd.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/rsa.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/sha.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/sha256.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/sha512.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/tfm.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/wc_port.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/wolfcrypt_first.c</itemPath>
+          <itemPath>../cyassl/ctaocrypt/src/wolfcrypt_last.c</itemPath>
+        </logicalFolder>
+        <itemPath>../cyassl/src/crl.c</itemPath>
+        <itemPath>../cyassl/src/internal.c</itemPath>
+        <itemPath>../cyassl/src/io.c</itemPath>
+        <itemPath>../cyassl/src/keys.c</itemPath>
+        <itemPath>../cyassl/src/ocsp.c</itemPath>
+        <itemPath>../cyassl/src/sniffer.c</itemPath>
+        <itemPath>../cyassl/src/ssl.c</itemPath>
+        <itemPath>../cyassl/src/tls.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="interrupts" projectFiles="true">
+        <itemPath>../src/sys_interrupts.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="src" projectFiles="true">
+        <itemPath>../src/console.c</itemPath>
+        <itemPath>../src/fifo.c</itemPath>
+        <itemPath>../src/sys_tasks.c</itemPath>
+        <itemPath>../src/app.c</itemPath>
+        <itemPath>../src/https_tasks.c</itemPath>
+        <itemPath>../src/json_format.c</itemPath>
+        <itemPath>../src/json_parser.c</itemPath>
+        <itemPath>../src/self_test.c</itemPath>
+        <itemPath>../src/spi_flash.c</itemPath>
+        <itemPath>../src/spi_eeprom.c</itemPath>
+        <itemPath>../src/tick.c</itemPath>
+        <itemPath>../src/main.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="wifly_drv" projectFiles="true">
+        <itemPath>../src/wifly_UART_drv.c</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>..</Elem>
+    <Elem>../../../cyassl</Elem>
+    <Elem>../../../src</Elem>
+    <Elem>../../../ctaocrypt/src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="LPCM_PIC32MX695F512L" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC32MX695F512L</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>ICD3PlatformTool</platformTool>
+        <languageToolchain>XC32</languageToolchain>
+        <languageToolchainVersion>1.21</languageToolchainVersion>
+        <platform>4</platform>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <C32>
+        <property key="additional-warnings" value="false"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories" value="../Include;../cyassl;../src"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value=""/>
+        <property key="place-data-into-section" value="false"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32>
+      <C32-AR>
+        <property key="additional-options-chop-files" value="false"/>
+      </C32-AR>
+      <C32-AS>
+        <property key="assembler-symbols" value=""/>
+        <property key="enable-symbols" value="true"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="expand-macros" value="false"/>
+        <property key="extra-include-directories-for-assembler" value=""/>
+        <property key="extra-include-directories-for-preprocessor" value=""/>
+        <property key="false-conditionals" value="false"/>
+        <property key="keep-locals" value="false"/>
+        <property key="list-assembly" value="false"/>
+        <property key="list-source" value="false"/>
+        <property key="list-symbols" value="false"/>
+        <property key="oXC32asm-list-to-file" value="false"/>
+        <property key="omit-debug-dirs" value="false"/>
+        <property key="omit-forms" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="warning-level" value=""/>
+      </C32-AS>
+      <C32-LD>
+        <property key="additional-options-use-response-files" value="false"/>
+        <property key="enable-check-sections" value="false"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="heap-size" value="32768"/>
+        <property key="input-libraries" value=""/>
+        <property key="linker-symbols" value=""/>
+        <property key="map-file" value="${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="oXC32ld-extra-opts" value=""/>
+        <property key="optimization-level" value=""/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="remove-unused-sections" value="false"/>
+        <property key="report-memory-usage" value="true"/>
+        <property key="stack-size" value=""/>
+        <property key="symbol-stripping" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="warn-section-align" value="false"/>
+      </C32-LD>
+      <C32CPP>
+        <property key="additional-warnings" value="false"/>
+        <property key="check-new" value="false"/>
+        <property key="eh-specs" value="true"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exceptions" value="true"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories" value=""/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value=""/>
+        <property key="place-data-into-section" value="false"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="rtti" value="true"/>
+        <property key="strict-ansi" value="false"/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32CPP>
+      <C32Global>
+        <property key="common-include-directories" value=""/>
+        <property key="gp-relative-option" value=""/>
+        <property key="legacy-libc" value="false"/>
+        <property key="relaxed-math" value="false"/>
+        <property key="save-temps" value="false"/>
+        <property key="wpo-lto" value="false"/>
+      </C32Global>
+      <ICD3PlatformTool>
+        <property key="ADC 1" value="true"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="CHANGE NOTICE" value="true"/>
+        <property key="COMPARATOR" value="true"/>
+        <property key="DMA" value="true"/>
+        <property key="ETHERNET CONTROLLER" value="true"/>
+        <property key="Freeze All Other Peripherals" value="true"/>
+        <property key="I2C1" value="true"/>
+        <property key="I2C2" value="true"/>
+        <property key="I2C3" value="true"/>
+        <property key="I2C4" value="true"/>
+        <property key="I2C5" value="true"/>
+        <property key="INPUT CAPTURE 1" value="true"/>
+        <property key="INPUT CAPTURE 2" value="true"/>
+        <property key="INPUT CAPTURE 3" value="true"/>
+        <property key="INPUT CAPTURE 4" value="true"/>
+        <property key="INPUT CAPTURE 5" value="true"/>
+        <property key="INTERRUPT CONTROL" value="true"/>
+        <property key="OUTPUT COMPARE 1" value="true"/>
+        <property key="OUTPUT COMPARE 2" value="true"/>
+        <property key="OUTPUT COMPARE 3" value="true"/>
+        <property key="OUTPUT COMPARE 4" value="true"/>
+        <property key="OUTPUT COMPARE 5" value="true"/>
+        <property key="PARALLEL MASTER/SLAVE PORT" value="true"/>
+        <property key="REAL TIME CLOCK" value="true"/>
+        <property key="SPI 1" value="true"/>
+        <property key="SPI 2" value="true"/>
+        <property key="SPI 3" value="true"/>
+        <property key="SPI 4" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="TIMER1" value="true"/>
+        <property key="TIMER2" value="true"/>
+        <property key="TIMER3" value="true"/>
+        <property key="TIMER4" value="true"/>
+        <property key="TIMER5" value="true"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="UART1" value="true"/>
+        <property key="UART2" value="true"/>
+        <property key="UART3" value="true"/>
+        <property key="UART4" value="true"/>
+        <property key="UART5" value="true"/>
+        <property key="UART6" value="true"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="false"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.end" value="0x1d07ffff"/>
+        <property key="memories.programmemory.partition2" value="true"/>
+        <property key="memories.programmemory.partition2.end"
+                  value="${memories.programmemory.partition2.end.value}"/>
+        <property key="memories.programmemory.partition2.start"
+                  value="${memories.programmemory.partition2.start.value}"/>
+        <property key="memories.programmemory.start" value="0x1d000000"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveprogramrange.end" value="0x1d07ffff"/>
+        <property key="programoptions.preserveprogramrange.start" value="0x1d000000"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VDDFirst"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="false"/>
+        <property key="voltagevalue" value="3.25"/>
+      </ICD3PlatformTool>
+    </conf>
+  </confs>
+</configurationDescriptor>
